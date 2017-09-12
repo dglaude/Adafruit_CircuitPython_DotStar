@@ -52,6 +52,7 @@ This example demonstrates the library with the single built-in DotStar on the
 
     pixels = adafruit_dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1)
     pixels[0] = (10, 0, 0)
+    pixels.show()
 
 Contributing
 ============
